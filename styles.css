@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+}
+html {
+    background-image: url('img/blur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+    color: #f7dff3;
+    font-smooth: auto;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 35px;
+}
+
+.box {
+    background: rgba(0,0,0,.3);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 40px;
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 1140px;
+    max-height: 640px;
+    align-items: center;
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+}
+
+b {
+    background: linear-gradient(90deg, #a98fe7 15%, rgba(242,191,187,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    text-align: center;
+    display: block;
+    line-height: 0%;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        background-color: rgb(126, 255, 180);
+    }
+}
