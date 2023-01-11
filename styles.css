@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-/* @font-face {
-    font-family: Montserrat;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300');
-}*/
 html {
     background-image: url('img/blur.png');
     background-repeat: no-repeat;
@@ -37,6 +33,9 @@ p {
     max-height: 640px;
     align-items: center;
     box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
 }
 
 b {
